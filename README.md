@@ -19,11 +19,12 @@ Welcome to the Time-IMM dataset collection, released as part of our NeurIPS 2025
 All datasets follow the structure below for compatibility:
 
 ```
-{dataset_name}/
-└── processed/
-    └── {entity_id}/
-        ├── time_series.csv         # Multivariate, irregular time-series data
-        └── text.csv                # Associated unstructured text data
+data/
+└── {dataset_name}/
+    └── processed/
+        └── {entity_id}/
+            ├── time_series.csv         # Multivariate, irregular time-series data
+            └── text.csv                # Associated unstructured text data
 ```
 
 > **Example:** `data/EPA-Air/processed/Los_Angeles/time_series.csv` and `data/EPA-Air/processed/Los_Angeles/text.csv`
